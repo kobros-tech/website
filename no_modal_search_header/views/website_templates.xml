@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <template
+        id="no_modal_search_header_1"
+        inherit_id="website.template_header_default"
+        name="Custom Template Header Default"
+        active="True"
+    >
+        <xpath expr="//t[@t-set='_layout']" position="after">
+            <t t-set="_layout" t-valuef="no_modal" />
+        </xpath>
+    </template>
+
+    <template
+        id="no_modal_search_header_2"
+        inherit_id="website.template_header_vertical"
+        name="Custom Template Header Vertical"
+        active="True"
+    >
+        <xpath expr="//t[@t-set='_layout']" position="after">
+            <t t-set="_layout" t-valuef="no_modal" />
+        </xpath>
+    </template>
+
+    <template
+        id="no_modal_search_header_3"
+        inherit_id="website.template_header_sales_one"
+        name="Custom Template Header Sale 1"
+        active="True"
+    >
+        <xpath expr="//t[@t-set='_layout']" position="after">
+            <t t-set="_layout" t-valuef="no_modal" />
+        </xpath>
+    </template>
+
+    <template
+        id="no_modal_search_header_4"
+        inherit_id="website.template_header_boxed"
+        name="Custom Template Header Rounded Box"
+        active="True"
+    >
+        <xpath expr="//t[@t-set='_layout']" position="after">
+            <t t-set="_layout" t-valuef="no_modal" />
+        </xpath>
+    </template>
+</odoo>
