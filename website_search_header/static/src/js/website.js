@@ -1,3 +1,4 @@
+/* global document, window */
 (function () {
     "use strict";
     function mobileSearch() {
