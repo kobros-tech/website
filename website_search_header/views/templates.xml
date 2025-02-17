@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <odoo>
-
     <template
         id="global_product_search_box"
         inherit_id="website.website_search_box_input"
@@ -20,13 +19,11 @@
 
     <template id="header_search_link" name="Header Search Link">
         <div id="div_search_header" t-attf-class="#{_item_class} ms-md-2">
-            <a t-attf-class="d-none #{_link_class}">
-            </a>
+            <a t-attf-class="d-none #{_link_class}" />
             <t t-call="website_search_header.global_product_search_box_input" />
         </div>
         <div id="div_search_button" t-attf-class="#{_item_class}">
-            <a t-attf-class="d-none #{_link_class}">
-            </a>
+            <a t-attf-class="d-none #{_link_class}" />
             <button
                 id="search_btn_toggle_search"
                 aria-label="Search"
@@ -156,5 +153,4 @@
             </t>
         </xpath>
     </template> -->
-
 </odoo>
